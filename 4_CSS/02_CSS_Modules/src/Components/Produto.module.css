@@ -1,0 +1,26 @@
+.titulo, .preco {
+  color: #43c;
+}
+
+/* podemos definir variáveis de estilo com o CSS modules, mas não utilizaremos no curso */
+@value cor: red;
+
+/* daremos preferência a variáveis nativas do CSS */
+:root {
+  --cor: red;
+}
+
+.preco {
+  color: var(--cor);
+  font-weight: bold;
+}
+
+.comprar {
+  transform: rotate(90deg) translateY(-120px);
+}
+
+
+/* ignora a política de classe única do CSS Module (pouco utilizado) */
+:global .container {
+  max-width: 900px;
+}
