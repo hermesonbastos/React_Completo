@@ -1,0 +1,8 @@
+.fundo {
+  height: 50px;
+  width: 50px;
+  background-image: url('./assets/foto.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  overflow: hidden;
+}
